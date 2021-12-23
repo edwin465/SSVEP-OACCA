@@ -1,6 +1,9 @@
 # SSVEP-OACCA
 The source code of the OACCA introduced in our IEEE TBME paper (10.1109/TBME.2021.3133594)
 
+# Two SSVEP datasets  
+Dataset I: 
+
 # Preliminary results
 1) Dataset I  
 At first, we run the code 'OACCA_acc_tsinghua_2021.m' to calculate the recognition accuracy using different methods (i.e., CCA, OMSCCA, PSF, CCA+OMSCCA, CCA+PSF, OACCA (or CCA+OMSCCA+PSF)), different trial orders (10 random orders) and different data lengths (10 different lengths: 0.6, 0.7, 0.8, ..., 1.5 s). All of the methods are under the same preprocessing procedure (e.g., the same bandpass filtering, the same filter-bank analysis, etc). Finally, all the calculated results will be stored in the OACCA_accuracy_tsinghua_2021.mat.  
@@ -15,3 +18,37 @@ The following figure shows the ITR comparsion between CCA, OMSCCA, PSF, CCA+OMSC
 It should be noticed that only the CCA performance can be kept constant every time (i.e., we can repeat the same results as shown in the IEEE TBME paper). For the others (OMSCCA, PSF, CCA+OMSCCA, CCA+PSF and OACCA), their performance may have a bit difference because of different trial orders. 
 
 2) Dataset II
+...  
+
+# Citation  
+If you use this code for a publication, please cite the following papers
+
+@article{wong2020learning,  
+title={Learning across multi-stimulus enhances target recognition methods in SSVEP-based BCIs},  
+author={Wong, Chi Man and Wan, Feng and Wang, Boyu and Wang, Ze and Nan, Wenya and Lao, Ka Fai and Mak, Peng Un and Vai, Mang I and Rosa, Agostinho},  
+journal={Journal of Neural Engineering},  
+volume={17},  
+number={1},  
+pages={016026},  
+year={2020},  
+publisher={IOP Publishing}  
+}  
+
+@article{wong2020spatial,  
+title={Spatial filtering in SSVEP-based BCIs: unified framework and new improvements},  
+author={Wong, Chi Man and Wang, Boyu and Wang, Ze and Lao, Ka Fai and Rosa, Agostinho and Wan, Feng},  
+journal={IEEE Transactions on Biomedical Engineering},  
+volume={67},  
+number={11},  
+pages={3057--3072},  
+year={2020},  
+publisher={IEEE}  
+}  
+
+@article{wong2021online,  
+  title={Online Adaptation Boosts SSVEP-Based BCI Performance},  
+  author={Wong, Chi Man and Wang, Ze and Nakanishi, Masaki and Wang, Boyu and Rosa, Agostinho and Chen, Philip and Jung, Tzyy-Ping and Wan, Feng},  
+  journal={IEEE Transactions on Biomedical Engineering},  
+  year={2021 (Early Access)},   
+  publisher={IEEE}  
+}
