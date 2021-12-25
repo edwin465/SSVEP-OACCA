@@ -17,7 +17,7 @@ The following figure shows the ITR comparsion between CCA, OMSCCA, PSF, CCA+OMSC
 
 It should be noticed that only the CCA performance can be kept constant every time (i.e., we can repeat the same results as shown in the IEEE TBME paper). For the others (OMSCCA, PSF, CCA+OMSCCA, CCA+PSF and OACCA), their performance may have a bit difference because of different trial orders. 
 
-2) Dataset II
+2) Dataset II  
 Similarly, we follow the procedure as introduced in Dataset II in this study. At first, we run the code 'OACCA_acc_beta_2021.m' and all the calculated results will be stored in the OACCA_accuracy_beta_2021.mat. Second, we run the code 'plot_oacca_acc_itr_2021.m' to plot the comparison results based on 'OACCA_accuracy_beta_2021.mat'.  
 The following figure shows the accuracy comparsion between CCA, OMSCCA, PSF, CCA+OMSCCA, CCA+PSF, OACCA (or CCA+OMSCCA+PSF). Note that x-axis indicates the data length (or time-window length) and y-axis indicates the average accuracy across different subjects and trial orders. The OACCA performs much better than the CCA. 
 
