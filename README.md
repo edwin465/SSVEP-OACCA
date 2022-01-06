@@ -1,6 +1,12 @@
 # SSVEP-OACCA
 The source code of the OACCA introduced in our IEEE TBME paper (10.1109/TBME.2021.3133594) is shared here.
 
+## Version 
+v1.0: (6 Jan 2022)  
+Test OACCA in two SSVEP datasets  
+Compare CCA and OACCA under different time-window lengths  
+
+
 # Two SSVEP datasets  
 In this study, we used two public SSVEP datasets (Dataset I and II) as provided by Tsinghua BCI group (http://bci.med.tsinghua.edu.cn/).
 
