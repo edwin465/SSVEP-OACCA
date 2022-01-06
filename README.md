@@ -1,5 +1,5 @@
 # SSVEP-OACCA
-The source code of the OACCA introduced in our IEEE TBME paper (10.1109/TBME.2021.3133594) is shared here.
+The source code of the OACCA introduced in our IEEE TBME paper (10.1109/TBME.2021.3133594) is shared here. After comparing the CCA and OACCA performance, it can be found that the OACCA performs better than the CCA.
 
 ## Version 
 v1.0: (6 Jan 2022)  
