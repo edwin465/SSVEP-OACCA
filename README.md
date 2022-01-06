@@ -1,19 +1,19 @@
 # SSVEP-OACCA
-The source code of the OACCA introduced in our IEEE TBME paper (10.1109/TBME.2021.3133594)
+The source code of the OACCA introduced in our IEEE TBME paper (10.1109/TBME.2021.3133594) is shared here.
 
 # Two SSVEP datasets  
 In this study, we used two public SSVEP datasets (Dataset I and II) as provided by Tsinghua BCI group (http://bci.med.tsinghua.edu.cn/).
 
-Dataset I:  
+Dataset I:    
 The details can be found in the following article:
 Wang, Y., et al. (2016). A benchmark dataset for SSVEP-based brain–computer interfaces. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 25(10), 1746-1752.
 
-Dataset II:
+Dataset II:  
 The details can be found in the following article:
 Liu, B., et al. (2020). BETA: A large benchmark database toward SSVEP-BCI application. Frontiers in neuroscience, 14, 627.
 
-The following table lists the important information of these two datasets
-![Table1](https://github.com/edwin465/SSVEP-OACCA/blob/main/plot_oacca_acc_ds1.png)
+The following table lists the important information of these two datasets, including the subject number (N_{sub}), the target number (N_f), the block number (N_{block}), and the layout.
+![Table1](https://github.com/edwin465/SSVEP-OACCA/blob/main/DatasetI_II.png)
 
 # Preliminary results
 1) Dataset I  
@@ -26,7 +26,7 @@ The following figure shows the accuracy comparsion between CCA, OMSCCA, PSF, CCA
 The following figure shows the ITR comparsion between CCA, OMSCCA, PSF, CCA+OMSCCA, CCA+PSF, OACCA (or CCA+OMSCCA+PSF). Note that x-axis indicates the data length (or time-window length) and y-axis indicates the average ITR across different subjects and trial orders. The OACCA performs much better than the CCA.
 ![result2](https://github.com/edwin465/SSVEP-OACCA/blob/main/plot_oacca_itr_ds1.png)
 
-It should be noticed that only the CCA performance can be kept constant every time (i.e., we can repeat the same results as shown in the IEEE TBME paper). For the others (OMSCCA, PSF, CCA+OMSCCA, CCA+PSF and OACCA), their performance may have a bit difference because of different trial orders. 
+It should be noticed that only the CCA performance can be kept constant every time (i.e., we can repeat the same results as shown in the IEEE TBME paper). For the others (OMSCCA, PSF, CCA+OMSCCA, CCA+PSF and OACCA), their performance may have very little difference because of different trial orders. 
 
 2) Dataset II  
 Similarly, we follow the procedure as introduced in Dataset II in this study. At first, we run the code 'OACCA_acc_beta_2021.m' and all the calculated results will be stored in the OACCA_accuracy_beta_2021.mat. Second, we run the code 'plot_oacca_acc_itr_2021.m' to plot the comparison results based on 'OACCA_accuracy_beta_2021.mat'.  
@@ -36,7 +36,7 @@ The following figure shows the accuracy comparsion between CCA, OMSCCA, PSF, CCA
 
 ![result4](https://github.com/edwin465/SSVEP-OACCA/blob/main/plot_oacca_itr_ds2.png)
 
-It should be noticed that only the CCA performance can be kept constant every time (i.e., we can repeat the same results as shown in the IEEE TBME paper). For the others (OMSCCA, PSF, CCA+OMSCCA, CCA+PSF and OACCA), their performance may have a bit difference because of different trial orders. 
+It should be noticed that only the CCA performance can be kept constant every time (i.e., we can repeat the same results as shown in the IEEE TBME paper). For the others (OMSCCA, PSF, CCA+OMSCCA, CCA+PSF and OACCA), their performance may have very little difference because of different trial orders. 
 
 # Citation  
 If you use this code for a publication, please cite the following papers
