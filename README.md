@@ -2,8 +2,18 @@
 The source code of the OACCA introduced in our IEEE TBME paper (10.1109/TBME.2021.3133594)
 
 # Two SSVEP datasets  
+In this study, we used two public SSVEP datasets (Dataset I and II) as provided by Tsinghua BCI group (http://bci.med.tsinghua.edu.cn/).
+
 Dataset I:  
+The details can be found in the following article:
+Wang, Y., et al. (2016). A benchmark dataset for SSVEP-based brain–computer interfaces. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 25(10), 1746-1752.
+
 Dataset II:
+The details can be found in the following article:
+Liu, B., et al. (2020). BETA: A large benchmark database toward SSVEP-BCI application. Frontiers in neuroscience, 14, 627.
+
+The following table lists the important information of these two datasets
+![Table1](https://github.com/edwin465/SSVEP-OACCA/blob/main/plot_oacca_acc_ds1.png)
 
 # Preliminary results
 1) Dataset I  
