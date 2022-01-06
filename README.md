@@ -6,6 +6,8 @@ v1.0: (6 Jan 2022)
 Test OACCA in two SSVEP datasets  
 Compare CCA and OACCA under different time-window lengths  
 
+## Feedback
+If you find any mistakes, please let me know via chiman465@gmail.com.
 
 # Two SSVEP datasets  
 In this study, we used two public SSVEP datasets (Dataset I and II) as provided by Tsinghua BCI group (http://bci.med.tsinghua.edu.cn/).
