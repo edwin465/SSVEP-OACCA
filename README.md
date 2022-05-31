@@ -6,7 +6,7 @@ v1.0: (6 Jan 2022)
 Test OACCA in two SSVEP datasets  
 Compare CCA and OACCA under different time-window lengths  
 
-v1.1: (31 May 2022)
+v1.1: (31 May 2022)  
 Add the file `itr_bci.m` 
 
 ## Feedback
