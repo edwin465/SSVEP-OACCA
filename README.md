@@ -9,7 +9,7 @@ Compare CCA and OACCA under different time-window lengths
 v1.1: (31 May 2022)  
 Add the file `itr_bci.m` 
 
-v1.2: (19 Jun 2025)
+v1.2: (19 Jun 2025)  
 Add the introduction part
 
 ## Feedback
