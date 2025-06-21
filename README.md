@@ -90,9 +90,9 @@ Based on three types of spatial filters, we can compute three groups of template
 Therefore, there are three types of detection results ($k_{1}$, $k_2$, and $k_{3}$):
 ```math
 \begin{align}
-&{{k}_1}^{[t]}=\max_{k}{\{{r_{k,1}}^{[t]}\}}, \qquad \mathrm{(CCA \quad detection \quad result)}\\
-&{{k}_2}^{[t]}=\max_{k}{\{{r_{k,1}}^{[t]}+{r_{k,2}}^{[t]}\}}, \qquad \mathrm{(CCA + PSF \quad detection \quad result)}\\
-&{{k}_3}^{[t]}=\max_{k}{\{{r_{k,1}}^{[t]}+{r_{k,2}}^{[t]}+{r_{k,3}}^{[t]}\}}, \qquad \mathrm{(CCA + PSF + MSCCA \quad detection \quad result)}\\ 
+&{{k}_1}^{[t]}=\max_{j}{\{{r_{j,1}}^{[t]}\}}, \qquad \mathrm{(CCA \quad detection \quad result)}\\
+&{{k}_2}^{[t]}=\max_{j}{\{{r_{j,1}}^{[t]}+{r_{j,2}}^{[t]}\}}, \qquad \mathrm{(CCA + PSF \quad detection \quad result)}\\
+&{{k}_3}^{[t]}=\max_{j}{\{{r_{j,1}}^{[t]}+{r_{j,2}}^{[t]}+{r_{j,3}}^{[t]}\}}, \qquad \mathrm{(CCA + PSF + MSCCA \quad detection \quad result)}\\ 
 \end{align}
 ```
 
